@@ -1,5 +1,10 @@
 function selectionSort(arr) {
   // type your code here
+  let sorted = arr.sort(function(a,b) {
+    console.log(a-b)
+    return a - b
+  })
+  return sorted
 }
 
 if (require.main === module) {
